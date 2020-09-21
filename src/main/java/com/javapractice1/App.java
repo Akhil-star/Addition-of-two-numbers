@@ -29,5 +29,10 @@ public class App
     	long sum=a+b;
     	LOG.info("The sum of numbers "+a+" and "+b+" = "+sum);
     }
+	 private static void sub2Numbers(int a,int b) {
+    	long sub=a-b;
+    	LOG.info("The sub of numbers "+a+" and "+b+" = "+sub);
+    }
+	
 
 }
