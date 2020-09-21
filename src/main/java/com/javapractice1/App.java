@@ -21,7 +21,7 @@ public class App
         System.out.println("Enter number2");
         int b=sc.nextInt();
         
-        add2Numbers(a,b);
+        div2Numbers(a,b);
         
         
     }
@@ -29,9 +29,9 @@ public class App
     	long sum=a+b;
     	LOG.info("The sum of numbers "+a+" and "+b+" = "+sum);
     }
-	 private static void sub2Numbers(int a,int b) {
-    	long sub=a-b;
-    	LOG.info("The sub of numbers "+a+" and "+b+" = "+sub);
+	 private static void div2Numbers(int a,int b) {
+    	long sub=a/b;
+    	LOG.info("The div of numbers "+a+" and "+b+" = "+sub);
     }
 	
 
