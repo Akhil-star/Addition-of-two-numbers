@@ -22,6 +22,8 @@ public class App
         int b=sc.nextInt();
         
         add2Numbers(a,b);
+	    sub2numbers(a,b);
+	    mul2Numbers(a,b);
         
         
     }
@@ -33,6 +35,9 @@ public class App
     	long sub=a-b;
     	LOG.info("The sub of numbers "+a+" and "+b+" = "+sub);
     }
-	
+		 private static void mul2Numbers(int a,int b) {
+    	long mul=a*b;
+    	LOG.info("The mul of numbers "+a+" and "+b+" = "+mul);
+		 }
 
 }
