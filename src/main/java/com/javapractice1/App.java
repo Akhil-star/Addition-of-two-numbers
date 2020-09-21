@@ -22,7 +22,7 @@ public class App
         int b=sc.nextInt();
         
         add2Numbers(a,b);
-	    sub2numbers(a,b);
+	    sub2Numbers(a,b);
 	    mul2Numbers(a,b);
         
         
