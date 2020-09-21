@@ -24,6 +24,7 @@ public class App
         add2Numbers(a,b);
 	    sub2Numbers(a,b);
 	    mul2Numbers(a,b);
+	    mod2Numbers(a,b);
         
         
     }
@@ -38,6 +39,10 @@ public class App
 		 private static void mul2Numbers(int a,int b) {
     	long mul=a*b;
     	LOG.info("The mul of numbers "+a+" and "+b+" = "+mul);
+		 }
+	private static void mod2Numbers(int a,int b) {
+    	long mod=a%b;
+    	LOG.info("The mod of numbers "+a+" and "+b+" = "+mod);
 		 }
 
 }
