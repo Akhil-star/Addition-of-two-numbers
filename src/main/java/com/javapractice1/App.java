@@ -25,13 +25,10 @@ public class App
         
         
     }
-    private static void add2Numbers(int a,int b) {
-    	long sum=a+b;
-    	LOG.info("The sum of numbers "+a+" and "+b+" = "+sum);
-    }
+    
 	 private static void div2Numbers(int a,int b) {
-    	long sub=a/b;
-    	LOG.info("The div of numbers "+a+" and "+b+" = "+sub);
+    	long div=a/b;
+    	LOG.info("The div of numbers "+a+" and "+b+" = "+div);
     }
 	
 
